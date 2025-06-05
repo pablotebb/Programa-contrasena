@@ -13,7 +13,7 @@ def generar_contraseña(longitud=12, mayusculas=True, numeros=True, simbolos=Tru
     contraseña = ''.join(random.choice(caracteres) for _ in range(longitud))
     return contraseña
 
-# Ejemplo de uso
+
 if __name__ == "__main__":
     print("Generador de Contraseñas Seguras")
     longitud = int(input("Longitud de la contraseña: "))
